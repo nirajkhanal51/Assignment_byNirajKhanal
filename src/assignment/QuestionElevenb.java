@@ -2,28 +2,28 @@ package assignment;
 
 import java.util.Scanner;
 
+///This is a java class for swapping two numbers
 public class QuestionElevenb {
 
 	public static void main(String[] args) {
-		
+
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a: ");
 		int a = input.nextInt();
 		System.out.println("Enter b: ");
-		int b = input.nextInt(); 
+		int b = input.nextInt();
 		System.out.println("Before swapping a is: " + a);
 		System.out.println("Before swapping b is: " + b);
-		
-		 b = a + b;
-		 a = b - a;
-		 b = b - a;
-		        
-		    		 
-		       System.out.println("After swapping the number a is: " + a);
-		       System.out.println("After swapping the number b is: " + b);
-		       
-		       input.close();
-		
+
+		b = a + b;
+		a = b - a;
+		b = b - a;
+
+		System.out.println("After swapping the number a is: " + a);
+		System.out.println("After swapping the number b is: " + b);
+
+		input.close();
+
 	}
 
 }
